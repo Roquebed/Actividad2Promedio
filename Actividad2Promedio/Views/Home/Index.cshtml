@@ -1,0 +1,37 @@
+﻿@model Actividad2Promedio.Models.Promedio;
+
+<html>
+<head>
+    <title>Actividad 2</title>
+    <link href="~/Estilos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img height="80px" src="~/Imagenes/Logo.jpg">
+        <h2 class="titulo">Consulta tu promedio</h2>
+    </header>
+    <main>
+        <h3>Calificaciones:</h3>
+        <form action="~/Home/Index">
+            <label>Calificación 1 </label>
+            <input type="number" value="@Model.Calificacion1" name="Calificacion1">
+            <br>
+            <label>Calificación 2 </label>
+            <input type="number" value="@Model.Calificacion2" name="Calificacion2">
+            <br>
+            <label>Calificación 3 </label>
+            <input type="number" value="@Model.Calificacion3" name="Calificacion3">
+            <br>
+            <br />
+            <input type="submit" value="Calcular promedio">
+            <br>
+            <br />
+            <label>Tu promedio: </label>
+            <input type="text" value=" @Model.Promedioo" />
+            <br>
+            <label>Estado: </label>
+            <input type="text" value=" @Model.Estado" />
+        </form>
+    </main>
+</body>
+</html>

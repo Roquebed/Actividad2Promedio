@@ -1,0 +1,35 @@
+html{
+    background-image: url(Imagenes/Background.jpg);
+}
+
+header{
+    background-color: #001F56;
+    width: auto;
+    height: 80px;
+    color: white;
+    text-align: left;
+}
+
+.titulo{
+    text-align: center;
+    margin: -50px;
+}
+
+main{
+    background-color: #001F56;
+    color: white;
+    margin: 100px;
+    padding-bottom: 10%;
+}
+
+form{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
